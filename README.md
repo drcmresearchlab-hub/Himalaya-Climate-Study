@@ -1,4 +1,4 @@
-# Himalaya-Climate-Study# Climate-Driven Landscape Dynamics in the Central Himalayas (1990–2026)
+# Climate-Driven Landscape Dynamics in the Central Himalayas (1990–2026)
 
 ## 🔬 Project Overview
 This project utilizes 36 years of Landsat satellite imagery (Landsat 5, 7, 8, and 9) to analyze the impacts of climate warming on cryosphere degradation, vegetation growth, and land surface temperature in the Central Himalayas. 
@@ -12,10 +12,11 @@ Traditional studies only look at raw temperature changes. This project introduce
 - **Air Temp vs. Vegetation (NDVI):** `+0.37` (Warmer winters are triggering high-altitude vegetation greening).
 
 ## 🗺️ Interactive Satellite Analysis
-Click the link below to view the interactive 1990 vs 2025 Snow/Ice (NDSI) comparison map. *(Blue = Snow/Ice, Red = Bare ground)*
+Click the link below to view the interactive 1990 vs 2025 Snow/Ice (NDSI) comparison map. *(Note: It may take a few seconds to load the satellite tiles).*
 
-👉 **[Launch Interactive Map](https://YOUR-GITHUB-USERNAME.github.io/YOUR-REPO-NAME/himalaya_interactive_map.html)**
+👉 **[Launch Interactive Map](https://drcmresearchlab-hub.github.io/Himalaya-Climate-Study/himalaya_interactive_map.html)**
 
-## 📁 Data & Code
-- `Summer_Data_1990_2026.csv` / `Winter_Data_1990_2026.csv`: The raw extracted datasets.
-- `Himalaya_Analysis.ipynb`: The Google Colab notebook containing the Earth Engine data extraction and correlation code.
+## 📁 Project Data
+- `Summer_Data_1990_2026.csv` (Extracted seasonal data)
+- `Winter_Data_1990_2026.csv` (Extracted seasonal data)
+- `himalaya_interactive_map.html` (Web map source code)
